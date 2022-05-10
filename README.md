@@ -1,2 +1,1 @@
-# processo-desenvolvimento-software-mambee
-Processo de desenvolvimento de software da Mambee
+# Ciclo de Vida de Desenvolvimento de Software da Mambee
