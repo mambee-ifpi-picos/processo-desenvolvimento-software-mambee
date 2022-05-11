@@ -83,7 +83,7 @@ flowchart LR
      D((Planejar)) --> E((Codificar))
      E --> F((Testar))
      F --> G((Implantar))
-     G --> H((Feedback e \n Validação))
+     G --> H((Validar))
      H --> D
     end
     C --> Desenvolvimento
