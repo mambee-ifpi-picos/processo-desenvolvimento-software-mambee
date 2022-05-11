@@ -113,3 +113,12 @@ No final da fase de planejamento, o líder do projeto deve ter informações suf
 > **Responsáveis**: Líder do projeto
 > 
 > **Participantes**: Todos os interessados no projeto
+
+
+
+
+
+---
+## Referências
+- [https://plan.io/blog/software-development-process/#3-design-and-prototyping](https://plan.io/blog/software-development-process/#3-design-and-prototyping)
+- [https://docs.google.com/document/d/1lbi95nYKUjW-eiylRH-ZZ4hutI__hF0MFh5ewp03gOc/edit?usp=sharing](https://docs.google.com/document/d/1lbi95nYKUjW-eiylRH-ZZ4hutI__hF0MFh5ewp03gOc/edit?usp=sharing)
