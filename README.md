@@ -1,9 +1,9 @@
 # Processo de Desenvolvimento de Software da Mambee
  
- O Objetivo deste documento é descrever o processo base de desenvolvimento de software da Fábrica Escola de Software Mambee.
+ O objetivo deste documento é descrever o processo base de desenvolvimento de software da Fábrica Escola de Software Mambee.
  
  
- ## Pápeis e responsabilidades
+ ## Papéis e responsabilidades
  
  ### Líder de Projeto (Team Leader) - Prioritariamente deve ser um Professor
  
@@ -32,12 +32,12 @@
 ### Designer de UX/UI - (UX - User Experience, UI User Interface)
 
 - Definir identidade visual do projeto;
-- Desenhar interface do aplicativo com o cliente/usuário;
-- Desenvolvover de protótipos de baixa e alta fidelidade;
-- Analisar e validar Usabilidade da interface gráfica.
+- Projetar interface do aplicativo com o cliente/usuário;
+- Desenvolver protótipos de baixa e alta fidelidade;
+- Analisar e validar usabilidade da interface gráfica.
 
 ### Desenvolvedor Front-end
-- Manter a base centra de código organizada de acordo com o fluxo de trabalho definido para o projeto;
+- Manter a base central de código organizada de acordo com o fluxo de trabalho definido para o projeto;
 - Implementar front-end das funcionalidades de acordo com as HUs;
 - Implementar requisitos não-funcionais do front-end de acordo com as especificações;
 - Refatorar o código-fonte para manter-se atualizado e de acordo com as boas práticas e arquitetura do sistema;
@@ -45,7 +45,7 @@
 - Criar e manter o processo de automatização de implantação do sistema.
 
 ### Desenvolvedor Back-end
-- Manter a base centra de código organizada de acordo com o fluxo de trabalho definido para o projeto;
+- Manter a base central de código organizada de acordo com o fluxo de trabalho definido para o projeto;
 - Implementar back-end das funcionalidades de acordo com as HUs;
 - Implementar requisitos não-funcionais do back-end de acordo com as especificações;
 - Refatorar o código-fonte para manter-se atualizado e de acordo com as boas práticas e arquitetura do sistema;
@@ -98,16 +98,17 @@ A seguir será detalhado cada etapa do processo:
 
 Quando surgir uma demanda por um novo  projeto, a primeira etapa é a concepção, que envolve a identificação do problema e levantamento dos requisitos iniciais. Isso inclui:
 
-- **Identificação do problema:** Qual o problema e real necessidade do cliente?
+- **Identificação do problema:** Qual o problema é real necessidade do cliente?
 - **Disponibilidade e alocação de recursos** : A Mambee tem as pessoas e as ferramentas necessárias para fazer isso?
 - **Estimativa de custos**: quanto vai custar?
 - **Agendamento de projetos**: como esse projeto se encaixa nos objetivos da Mambee?
 - **Alinhamento**: Como esse projeto se conecta à missão e visão da Mambee?
 - **Definição do líder do projeto**: Definir o líder do projeto dentro da Mambee.
 - **Definição do PO**: Definir o PO do projeto
-Nesta fase deve ser envolvido todos as pessoas da Mambee que serão afetadas pelo projeto (Coordenador, professor e equipe de desenvolvimento).
 
-No final da fase de planejamento, o líder do projeto e o PO devem ter informações suficientes para montar um escopo de trabalho de alto nível SOW (scope of work em inglês) – um plano que detalha o que está será construído, por que e como se alinha com os objetivos da Mambee.
+Nesta fase deve ser envolvido todas as pessoas da Mambee que serão afetadas pelo projeto (Coordenador, professor e equipe de desenvolvimento).
+
+No final da fase de planejamento, o líder do projeto e PO devem ter informações suficientes para montar um escopo de trabalho de alto nível SOW (scope of work em inglês) – um plano que detalha o que está será construído, por que e como se alinha com os objetivos da Mambee.
 
 > **Entradas**: Documento da proposta de projeto [[Template]](#)
 > 
@@ -136,7 +137,7 @@ O próximo passo é alinhar junto ao cliente suas necessidades e expectativas e 
 ### 3. Projeto
 
 Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de começar a projetar a estrutura interna e interface gráfica do software, além de definir as tecnologias e fluxo de trabalho da equipe. Isso inclui:
-- Criação de protótipos de baixa e alta fidelidade (wireframes ou protótipos funcionais);
+- Criação de protótipos de baixa e alta fidelidade (wireframes/protótipos);
 - Definição das tecnologias de front-end, back-end e implantação;
 - Definição das ferramentas de hospedagem de código, comunicação, documentação e gerenciamento do projeto;  
 - Aprovar wireframe/protótipos com os usuários;
@@ -154,7 +155,7 @@ Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de 
 
 Com as funcionalidades, design visual e arquitetura definidas, é hora de construir o software para atender as necessidades do cliente de acordo com os requisitos documentados.
 
-Esta fase é composta por um conjunto de etapas que devem ser executados em ciclos iterativos e incrementais do início até conclusão do desenvolvimento da solução proposta. Conforme a figura abaixao, as etapas do Desenvolvimento são:  Planejamento, Codificação, Teste, Implantação e Validação. 
+Esta fase é composta por um conjunto de etapas que devem ser executadas em ciclos iterativos e incrementais do início até conclusão do desenvolvimento da solução proposta. Conforme a figura abaixo, as etapas do Desenvolvimento são:  Planejamento, Codificação, Teste, Implantação e Validação. 
 
 ```mermaid
 flowchart LR
@@ -171,7 +172,7 @@ flowchart LR
 A seguir será detalhada cada uma dessas etapas.
 
 #### 4.1. Planejamento
-A cada iteração o PO e equipe de desenvolvimento devem se reunir para realizar o planejamento das tarefas que serão executas na iteração (Sprint), incluido  o desenvolvimento de novas Histórias de Usuários, correção de defeitos, refatoração e redesign.
+A cada iteração o PO e equipe de desenvolvimento devem se reunir para realizar o planejamento das tarefas que serão executadas na iteração (Sprint), incluindo  o desenvolvimento de novas Histórias de Usuários, correção de defeitos, refatoração e redesign.
 Spring/iteração é um período de tempo (recomendamos duas semanas) definido para realização das tarefas/atividades selecionadas. 
 
 #### 4.2. Codificação
