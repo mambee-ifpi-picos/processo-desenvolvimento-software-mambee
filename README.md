@@ -5,7 +5,7 @@
  
  ## Pápeis e responsabilidades
  
- ### Líder de Projeto (Team Leader)
+ ### Líder de Projeto (Team Leader) - Prioritariamente deve ser um Professor
  
  - Liderar o projeto em relação ao orçamento, escopo e cronograma juntamente com o cliente e equipe de desenvolvimento;
  - Apresentar relatórios de acompanhamento e conclusão do projeto;
@@ -73,6 +73,7 @@ Principais **benefícios** do SDLC:
 - Definir canais de comunicação e expectativas entre desenvolvedores e partes interessadas do projeto;
 - Definir funções e responsabilidades claras para toda a sua equipe (desenvolvedores, designers, gestores, cliente, etc...);
 
+Nosso modelo de ciclo de vida é iterativo e incremental, baseando-se no framework SCRUM. Durante o desenvolvimento do software haverá várias entregas sucessivas ao cliente, que serão desenvolvidas pelo time, onde cada incremento entregue representará um conjunto de funcionalidades do software.
 A figura abaixo ilustra o ciclo de vida do processo de desenvolvimento de software da Mambee.
 
 ```mermaid
@@ -102,20 +103,73 @@ Quando surgir uma demanda por um novo  projeto, a primeira etapa é a concepçã
 - **Estimativa de custos**: quanto vai custar?
 - **Agendamento de projetos**: como esse projeto se encaixa nos objetivos da Mambee?
 - **Alinhamento**: Como esse projeto se conecta à missão e visão da Mambee?
-- **Definição do líder do projeto**: Definição de um líder do projeto dentro da Mambee.
+- **Definição do líder do projeto**: Definir o líder do projeto dentro da Mambee.
+- **Definição do PO**: Definir o PO do projeto
 Nesta fase deve ser envolvido todos as pessoas da Mambee que serão afetadas pelo projeto (Coordenador, professor e equipe de desenvolvimento).
 
-No final da fase de planejamento, o líder do projeto deve ter informações suficientes para montar um escopo de trabalho de alto nível SOW (scope of work em inglês) – um plano que detalha o que está será construído, por que e como se alinha com os objetivos da Mambee.
+No final da fase de planejamento, o líder do projeto e o PO devem ter informações suficientes para montar um escopo de trabalho de alto nível SOW (scope of work em inglês) – um plano que detalha o que está será construído, por que e como se alinha com os objetivos da Mambee.
 
 > **Entradas**: Documento da proposta de projeto [[Template]](#)
 > 
 > **Saídas**: Documento de escopo de trabalho de alto nível (scope of work - [SOW](https://plan.io/blog/scope-of-work/)) [[Template]](#)
 > 
-> **Responsáveis**: Líder do projeto
+> **Responsáveis**: Líder do projeto e PO
 > 
 > **Participantes**: Todos os interessados no projeto
 
+### 2. Planejamento
 
+O próximo passo é alinhar junto ao cliente suas necessidades e expectativas e definir o escopo do projeto. Isso inclui:
+
+- Criação do Product Backlog com as funcionalidades da solução proposta (*O Product Backlog é um artefato do Scrum. Nele são registradas as Histórias de Usuários que irão descrever as funcionalidades da solução a ser desenvolvida*.); 
+- Priorizar as Histórias de Usuários de acordo com as necessidades do cliente e do produto, levando em consideração as necessidades implícitas identificadas pelo PO, além de ordená-las a fim de entregar maior valor ao cliente.
+- Planejar a Sprint 0 para realização da próxima etapa: Projeto.
+
+> **Entradas**: Documento de escopo de trabalho [[Template]](#)
+> 
+> **Saídas**: Product Backlog priorizado [[Template]](#)
+> 
+> **Responsáveis**: Líder do projeto e PO
+> 
+> **Participantes**: Todos os interessados no projeto
+
+### 3. Projeto
+
+Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de começar a projetar a estrutura interna e interface gráfica do software, além de definir as tecnologias e fluxo de trabalho da equipe. Isso inclui:
+- Criação de protótipos de baixa e alta fidelidade (wireframes ou protótipos funcionais);
+- Definição das tecnologias de front-end, back-end e implantação;
+- Definição das ferramentas de hospedagem de código, comunicação, documentação e gerenciamento do projeto;  
+- Aprovar wireframe/protótipos com os usuários;
+- Definir identidade visual do software.
+
+> **Entradas**: Product Backlog priorizado [[Template]](#)
+> 
+> **Saídas**: Documento de arquitetura [[Template]](#) e Documento de identidade visual [[Template]](#)
+> 
+> **Responsáveis**: Líder do projeto, PO, Desenvolvedores, Designers e Testadores
+> 
+> **Participantes**: Todos os interessados no projeto
+
+### 4. Desenvolvimento
+
+Com as funcionalidades, design visual e arquitetura definidas, é hora de construir o software para atender as necessidades do cliente de acordo com os requisitos documentados.
+
+Esta fase é composta por um conjunto de etapas que devem ser executados em ciclos iterativos e incrementais do início até conclusão do desenvolvimento da solução proposta. As etapas do Desenvolvimento são:  Planejamento, Codificação, Teste, Implantação e Validação. A seguir será detalhada cada uma dessas etapas.
+
+#### 4.1. Planejamento
+A cada iteração o PO e equipe de desenvolvimento devem se reunir para realizar o planejamento das tarefas que serão executas na iteração (Sprint), incluido  o desenvolvimento de novas Histórias de Usuários, correção de defeitos, refatoração e redesign.
+Spring/iteração é um período de tempo (recomendamos duas semanas) definido para realização das tarefas/atividades selecionadas. 
+
+#### 4.2. Codificação
+
+
+#### 4.3. Teste
+
+
+#### 4.4. Implantação
+
+
+#### 4.5. Validação
 
 
 
