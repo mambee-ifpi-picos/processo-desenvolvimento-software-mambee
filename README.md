@@ -78,18 +78,18 @@ A figura abaixo ilustra o ciclo de vida do processo de desenvolvimento de softwa
 
 ```mermaid
 flowchart LR
-    A((Concepção)) --> B((Planejamento))
-    B --> C((Projeto))
+    A(Concepção) --> B(Planejamento)
+    B --> C(Projeto)
     subgraph Desenvolvimento
      direction RL
-     D((Planejar)) --> E((Codificar))
-     E --> F((Testar))
-     F --> G((Implantar))
-     G --> H((Validar))
+     D(Planejar) --> E(Codificar)
+     E --> F(Testar)
+     F --> G(Implantar)
+     G --> H(Validar)
      H --> D
     end
     C --> Desenvolvimento
-    Desenvolvimento --> I((Encerramento))
+    Desenvolvimento --> I(Encerramento)
 ```
 
 A seguir será detalhado cada etapa do processo:
@@ -154,7 +154,21 @@ Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de 
 
 Com as funcionalidades, design visual e arquitetura definidas, é hora de construir o software para atender as necessidades do cliente de acordo com os requisitos documentados.
 
-Esta fase é composta por um conjunto de etapas que devem ser executados em ciclos iterativos e incrementais do início até conclusão do desenvolvimento da solução proposta. As etapas do Desenvolvimento são:  Planejamento, Codificação, Teste, Implantação e Validação. A seguir será detalhada cada uma dessas etapas.
+Esta fase é composta por um conjunto de etapas que devem ser executados em ciclos iterativos e incrementais do início até conclusão do desenvolvimento da solução proposta. Conforme a figura abaixao, as etapas do Desenvolvimento são:  Planejamento, Codificação, Teste, Implantação e Validação. 
+
+```mermaid
+flowchart LR
+    subgraph Desenvolvimento
+     direction RL
+     D(Planejar) --> E(Codificar)
+     E --> F(Testar)
+     F --> G(Implantar)
+     G --> H(Validar)
+     H --> D
+    end
+```
+
+A seguir será detalhada cada uma dessas etapas.
 
 #### 4.1. Planejamento
 A cada iteração o PO e equipe de desenvolvimento devem se reunir para realizar o planejamento das tarefas que serão executas na iteração (Sprint), incluido  o desenvolvimento de novas Histórias de Usuários, correção de defeitos, refatoração e redesign.
