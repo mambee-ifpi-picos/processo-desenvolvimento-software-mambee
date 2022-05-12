@@ -2,6 +2,7 @@
  
  O Objetivo deste documento é descrever o processo base de desenvolvimento de software da Fábrica Escola de Software Mambee.
  
+ 
  ## Pápeis e responsabilidades
  
  ### Líder de Projeto (Team Leader)
