@@ -196,8 +196,8 @@ Nesta etapa é onde realmente o software é construído, é quanto trasformamos 
 - Implantar a aplicação no ambiente de teste;
 - Criar e executar casos de testes de forma manual e automatizada;
 - Criar testes automatizados de sistema (end-to-end);
-- Registrar defeitos/bugs.
-- 
+- Registrar defeitos/bugs [[Template](templates/defeito.md)].
+
 > **Entradas**: Lista de tarefas [[Template]](#)
 > 
 > **Saídas**: Código-fonte de produção, código-fonte dos testes automatizados, cenários de testes, lista de defeitos/bugs, esteira de automatização;
