@@ -269,8 +269,3 @@ Nesta etapa deve ser formalizado junto ao cliente o encerramento do projeto.
 - **Gestão do projeto**: [Taiga](https://www.taiga.io/)
 
 > Recomendamos preferência por ferramentas open-source, veja lista: [https://opensource.builders](https://opensource.builders)
-
----
-## Referências
-- [https://plan.io/blog/software-development-process/#3-design-and-prototyping](https://plan.io/blog/software-development-process/#3-design-and-prototyping)
-- [https://docs.google.com/document/d/1lbi95nYKUjW-eiylRH-ZZ4hutI__hF0MFh5ewp03gOc/edit?usp=sharing](https://docs.google.com/document/d/1lbi95nYKUjW-eiylRH-ZZ4hutI__hF0MFh5ewp03gOc/edit?usp=sharing)
