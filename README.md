@@ -61,6 +61,8 @@
 - Realizar a abertura e validação de bugs;
 - Implementar e executar testes de sistemas (e2e) automatizados.
 
+> **A equipe de desenvolvimento é composta por: Líder técnico, desenvolvedor (back-end e front-end), designer e testador;**
+
  ## Ciclo de vida do processo de desenvolvimento de software
  
  O ciclo de vida de desenvolvimento de software - SDLC (Software Development Life Cycle em inglês) é uma estrutura que define todas as etapas envolvidas no processo de planejamento, criação, teste e implantação de software.
@@ -82,14 +84,15 @@ flowchart LR
     B --> C(Projeto)
     subgraph Desenvolvimento
      direction RL
-     D(Planejar) --> E(Codificar)
-     E --> F(Testar)
-     F --> G(Implantar)
-     G --> H(Validar)
-     H --> D
+     D(Planejar) --> E(Codificar e Testar)
+     E --> F(Validar e \n Feeback)
+     F -.-> G(Implantar)
+     G --> D
+     F --> D
     end
     C --> Desenvolvimento
-    Desenvolvimento --> I(Encerramento)
+    Desenvolvimento --> H(Entrega)
+    H --> I(Encerramento)
 ```
 
 A seguir será detalhado cada etapa do processo:
@@ -139,6 +142,7 @@ O próximo passo é alinhar junto ao cliente suas necessidades e expectativas e 
 Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de começar a projetar a estrutura interna e interface gráfica do software, além de definir as tecnologias e fluxo de trabalho da equipe. Isso inclui:
 - Criação de protótipos de baixa e alta fidelidade (wireframes/protótipos);
 - Definição das tecnologias de front-end, back-end e implantação;
+- Definir estilo de codificação (Code Style);
 - Definição das ferramentas de hospedagem de código, comunicação, documentação e gerenciamento do projeto;  
 - Aprovar wireframe/protótipos com os usuários;
 - Definir identidade visual do software.
@@ -161,32 +165,108 @@ Esta fase é composta por um conjunto de etapas que devem ser executadas em cicl
 flowchart LR
     subgraph Desenvolvimento
      direction RL
-     D(Planejar) --> E(Codificar)
-     E --> F(Testar)
-     F --> G(Implantar)
-     G --> H(Validar)
-     H --> D
+     D(Planejar) --> E(Codificar e Testar)
+     E --> F(Validar e \n Feeback)
+     F -.-> G(Implantar)
+     G --> D
+     F --> D
     end
 ```
 
 A seguir será detalhada cada uma dessas etapas.
 
-#### 4.1. Planejamento
+#### 4.1. Planejar
 A cada iteração o PO e equipe de desenvolvimento devem se reunir para realizar o planejamento das tarefas que serão executadas na iteração (Sprint), incluindo  o desenvolvimento de novas Histórias de Usuários, correção de defeitos, refatoração e redesign.
 Spring/iteração é um período de tempo (recomendamos duas semanas) definido para realização das tarefas/atividades selecionadas. 
 
-#### 4.2. Codificação
+> **Entradas**: Product Backlog priorizado [[Template]](#)
+> 
+> **Saídas**: Lista de tarefas para serem executadas [[Template]](#)
+> 
+> **Responsáveis**: PO e TODA equipe de desenvolvimento
+> 
+> **Participantes**: Todos os interessados no projeto
+
+#### 4.2. Codificar e Testar
+Nesta etapa é onde realmente o software é construído, é quanto trasformamos em código as funcionalidades do software. Isso inclui:
+- Codificação das Histórias de Usuários;
+- Correção de defeitos/bugs;
+- Codificação dos testes automatizadas de unidade e integração;
+- Criação da esteira de automatização de construção e implantação (build e deploy) da aplicação;
+- Implantar a aplicação no ambiente de teste;
+- Criar e executar casos de testes de forma manual e automatizada;
+- Criar testes automatizados de sistema (end-to-end);
+- Registrar defeitos/bugs.
+- 
+> **Entradas**: Lista de tarefas [[Template]](#)
+> 
+> **Saídas**: Código-fonte de produção, código-fonte dos testes automatizados, cenários de testes, lista de defeitos/bugs, esteira de automatização;
+> 
+> **Responsáveis**: Desenvolvedores (back-end e front-end) e testadores 
+> 
+> **Participantes**: TODA equipe de desenvolvimento
+
+#### 4.3. Validar e feedback
+
+Nesta etapa é realizada uma validação das funcionalidades desenvolvidas junto ao cliente e usuários do software. Essa validação é importante para coletar feedback do cliente e usuários sobre a usabilidade e funcionalidades do software. Além disso, é realizada uma análise e reflexão sobre o fluxo de trabalho da equipe e comunicação com todos interessados no projeto. Isso inclui:
+- Apresentar ao cliente/usuários o que foi desenvolvido na interação atual;
+- Coletar feedback do cliente e usuários;
+- Analisar o fluxo de trabalho;
+- Documentar lições aprendidas; 
+- Documentar ações de melhoria;
+
+> **Entradas**: Software funcionando e suas documentações
+> 
+> **Saídas**: Documento de lições aprendidas e ações de melhoria
+> 
+> **Responsáveis**: PO e TODA equipe de desenvolvimento
+> 
+> **Participantes**: Todos os interessados no projeto 
 
 
-#### 4.3. Teste
+#### 4.4. Implantar
 
+Esta etapa é opcional, caso seja de interesse do cliente, será gerado uma nova versão (release) do software para implantação no ambiente de homologação e/ou produção;
 
-#### 4.4. Implantação
+> **Entradas**: Código-fonte de produção, esteira de automatização;
+> 
+> **Saídas**: Software funcionando no ambiente desejado (homologação ou produção)
+> 
+> **Responsáveis**: Desenvolvedores (back-end e front-end)
+> 
+> **Participantes**: Todos os interessados no projeto 
 
+### 5. Entrega
+Após a etapa de desenvolvimento o software está pronto para produção. Nesta etapa é realizada a entrega do software (código e documentação) para o cliente. Isso inclui:
+- Disponibilizar o código-fonte para o cliente;
+- Disponibizar documentação para o cliente;
+- Implantar o software em um ambiente de produção;
+- Fazer repasse de conhecimento para o cliente sobre a configuração e manutenção do software;
 
-#### 4.5. Validação
+> **Entradas**: Todos os artefadores produzidos no projeto
+> 
+> **Saídas**: Todos os artefadores produzidos no projeto
+> 
+> **Responsáveis**: PO, Líder do projeto e equipe de desenvolvimento
+> 
+> **Participantes**: Todos os interessados no projeto 
 
+### 6. Encerramento
+Nesta etapa deve ser formalizado junto ao cliente o encerramento do projeto.
 
+> **Entradas**: Aceite do cliente
+> 
+> **Saídas**: Formalização do encerramento do projeto
+> 
+> **Responsáveis**: PO, Líder do projeto e cliente
+> 
+> **Participantes**: PO, Líder do projeto e cliente
+
+## Nossas Ferramentas
+
+- **Comunicação assíncrona**:
+- **Hospedagem de código**:
+- **Gestão do projeto**:
 
 ---
 ## Referências
