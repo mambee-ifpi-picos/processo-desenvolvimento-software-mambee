@@ -264,9 +264,11 @@ Nesta etapa deve ser formalizado junto ao cliente o encerramento do projeto.
 
 ## Nossas Ferramentas
 
-- **Comunicação assíncrona**:
-- **Hospedagem de código**:
-- **Gestão do projeto**:
+- **Comunicação assíncrona**: [Telegram](https://telegram.org/), [Discord](https://discord.com/)
+- **Git e Automatização**: [GitHub](https://github.com/), [Gitlab](https://gitlab.com/)
+- **Gestão do projeto**: [Taiga](https://www.taiga.io/)
+
+> Recomendamos preferência por ferramentas open-source, veja lista: [https://opensource.builders](https://opensource.builders)
 
 ---
 ## Referências
