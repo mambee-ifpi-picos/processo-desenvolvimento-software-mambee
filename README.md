@@ -245,7 +245,7 @@ Após a etapa de desenvolvimento o software está pronto para produção. Nesta 
 
 > **Entradas**: Todos os artefadores produzidos no projeto
 > 
-> **Saídas**: Todos os artefadores produzidos no projeto
+> **Saídas**: Aceite do cliente
 > 
 > **Responsáveis**: PO, Líder do projeto e equipe de desenvolvimento
 > 
