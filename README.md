@@ -113,9 +113,9 @@ Nesta fase deve ser envolvido todas as pessoas da Mambee que serão afetadas pel
 
 No final da fase de planejamento, o líder do projeto e PO devem ter informações suficientes para montar um escopo de trabalho de alto nível SOW (scope of work em inglês) – um plano que detalha o que está será construído, por que e como se alinha com os objetivos da Mambee.
 
-> **Entradas**: Documento da proposta de projeto [[Template]](#)
+> **Entradas**: Documento da proposta de projeto [[Template]](https://docs.google.com/document/d/1Yf0bfSXADIW0TzGULKsiaVAQ5mgPX5e1kIF7LHP9VoI/edit?usp=sharing)
 > 
-> **Saídas**: Documento de escopo de trabalho de alto nível (scope of work - [SOW](https://plan.io/blog/scope-of-work/)) [[Template]](#)
+> **Saídas**: Documento de visão [[Template](templates/documento-visao.md)] com o escopo de trabalho de alto nível 
 > 
 > **Responsáveis**: Líder do projeto e PO
 > 
@@ -129,9 +129,9 @@ O próximo passo é alinhar junto ao cliente suas necessidades e expectativas e 
 - Priorizar as Histórias de Usuários de acordo com as necessidades do cliente e do produto, levando em consideração as necessidades implícitas identificadas pelo PO, além de ordená-las a fim de entregar maior valor ao cliente.
 - Planejar a Sprint 0 para realização da próxima etapa: Projeto.
 
-> **Entradas**: Documento de escopo de trabalho [[Template]](#)
+> **Entradas**: Documento de visão
 > 
-> **Saídas**: Product Backlog priorizado [[Template]](#)
+> **Saídas**: Product Backlog priorizado [[Template](https://tree.taiga.io/project/mambee-mambee-exemplo/backlog)]
 > 
 > **Responsáveis**: Líder do projeto e PO
 > 
@@ -147,9 +147,9 @@ Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de 
 - Aprovar wireframe/protótipos com os usuários;
 - Definir identidade visual do software.
 
-> **Entradas**: Product Backlog priorizado [[Template]](#)
+> **Entradas**: Product Backlog priorizado
 > 
-> **Saídas**: Documento de arquitetura [[Template]](#) e Documento de identidade visual [[Template]](#)
+> **Saídas**: Documento de arquitetura [[Template](templates/arquitetura.md)] e primeiras História de Usuários detalhadas [[Template](https://tree.taiga.io/project/mambee-mambee-exemplo/us/6)]
 > 
 > **Responsáveis**: Líder do projeto, PO, Desenvolvedores, Designers e Testadores
 > 
@@ -179,9 +179,9 @@ A seguir será detalhada cada uma dessas etapas.
 A cada iteração o PO e equipe de desenvolvimento devem se reunir para realizar o planejamento das tarefas que serão executadas na iteração (Sprint), incluindo  o desenvolvimento de novas Histórias de Usuários, correção de defeitos, refatoração e redesign.
 Spring/iteração é um período de tempo (recomendamos duas semanas) definido para realização das tarefas/atividades selecionadas. 
 
-> **Entradas**: Product Backlog priorizado [[Template]](#)
+> **Entradas**: Product Backlog priorizado 
 > 
-> **Saídas**: Lista de tarefas para serem executadas [[Template]](#)
+> **Saídas**: Sprint backlog com a lista de tarefas para serem executadas [[Template](https://tree.taiga.io/project/mambee-mambee-exemplo/taskboard/sprint-1-1418)]
 > 
 > **Responsáveis**: PO e TODA equipe de desenvolvimento
 > 
@@ -196,13 +196,13 @@ Nesta etapa é onde realmente o software é construído, é quanto trasformamos 
 - Implantar a aplicação no ambiente de teste;
 - Criar e executar casos de testes de forma manual e automatizada;
 - Criar testes automatizados de sistema (end-to-end);
-- Registrar defeitos/bugs [[Template](templates/defeito.md)].
+- Registrar defeitos/bugs [[Template](https://tree.taiga.io/project/mambee-mambee-exemplo/issue/8)].
 
-> **Entradas**: Lista de tarefas [[Template]](#)
+> **Entradas**: Lista de tarefas (Sprint backlog e Issues) [[Template](https://tree.taiga.io/project/mambee-mambee-exemplo/taskboard/sprint-1-1418)]
 > 
-> **Saídas**: Código-fonte de produção, código-fonte dos testes automatizados, cenários de testes, lista de defeitos/bugs, esteira de automatização;
+> **Saídas**: HUs detalhadas, código-fonte de produção, código-fonte dos testes automatizados, cenários de testes, lista de defeitos/bugs, esteira de automatização;
 > 
-> **Responsáveis**: Desenvolvedores (back-end e front-end) e testadores 
+> **Responsáveis**: PO, Desenvolvedores (back-end e front-end) e testadores 
 > 
 > **Participantes**: TODA equipe de desenvolvimento
 
