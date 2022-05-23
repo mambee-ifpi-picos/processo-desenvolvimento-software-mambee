@@ -125,8 +125,10 @@ No final da fase de planejamento, o líder do projeto e PO devem ter informaçõ
 
 O próximo passo é alinhar junto ao cliente suas necessidades e expectativas e definir o escopo do projeto. Isso inclui:
 
-- Criação do Product Backlog com as funcionalidades da solução proposta (*O Product Backlog é um artefato do Scrum. Nele são registradas as Histórias de Usuários que irão descrever as funcionalidades da solução a ser desenvolvida*.); 
+- Criar o Projeto no [Taiga](https://www.taiga.io) e adicionar a equipe do projeto;
+- Criar o Product Backlog com as funcionalidades da solução proposta (*O Product Backlog é um artefato do Scrum. Nele são registradas as Histórias de Usuários que irão descrever as funcionalidades da solução a ser desenvolvida*.); 
 - Priorizar as Histórias de Usuários de acordo com as necessidades do cliente e do produto, levando em consideração as necessidades implícitas identificadas pelo PO, além de ordená-las a fim de entregar maior valor ao cliente.
+- Criar o servidor do projeto no [Discord](https://discord.com) e adicionar a equipe do projeto;
 - Planejar a Sprint 0 para realização da próxima etapa: Projeto.
 
 > **Entradas**: Documento de visão
@@ -140,6 +142,7 @@ O próximo passo é alinhar junto ao cliente suas necessidades e expectativas e 
 ### 3. Projeto
 
 Com os requisitos estabelecidos (Histórias de Usuários definidas), é hora de começar a projetar a estrutura interna e interface gráfica do software, além de definir as tecnologias e fluxo de trabalho da equipe. Isso inclui:
+- 
 - Criação de protótipos de baixa e alta fidelidade (wireframes/protótipos);
 - Definição das tecnologias de front-end, back-end e implantação;
 - Definir estilo de codificação (Code Style);
@@ -264,8 +267,8 @@ Nesta etapa deve ser formalizado junto ao cliente o encerramento do projeto.
 
 ## Nossas Ferramentas
 
-- **Comunicação assíncrona**: [Telegram](https://telegram.org/), [Discord](https://discord.com/)
-- **Git e Automatização**: [GitHub](https://github.com/), [Gitlab](https://gitlab.com/)
+- **Comunicação assíncrona**: [Discord](https://discord.com/)
+- **Git e Automatização**: [GitHub](https://github.com/) ou [Gitlab](https://gitlab.com/)
 - **Gestão do projeto**: [Taiga](https://www.taiga.io/)
 
 > Recomendamos preferência por ferramentas open-source, veja lista: [https://opensource.builders](https://opensource.builders)
