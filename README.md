@@ -2,11 +2,9 @@
  
  O objetivo deste documento é descrever o processo base de desenvolvimento de software da Fábrica Escola de Software Mambee.
  
- 
  ## Papéis e responsabilidades
  
  ### Líder de Projeto (Team Leader) - Prioritariamente deve ser um Professor
- 
  - Liderar o projeto em relação ao orçamento, escopo e cronograma juntamente com o cliente e equipe de desenvolvimento;
  - Apresentar relatórios de acompanhamento e conclusão do projeto;
  - Prover interação entre cliente e equipe;
